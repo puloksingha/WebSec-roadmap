@@ -1,15 +1,15 @@
-Complete Windows Roadmap for Cybersecurity
+# Complete Windows Roadmap for Cybersecurity
 
-Target: Cybersecurity, Web Application Security, Application Security, and Penetration Testing
-Level: Beginner → Intermediate → Advanced
-Suggested duration: 6–8 weeks for core Windows skills
-Study time: 30–45 minutes daily alongside Linux, Python, and Networking.
+**Target:** Cybersecurity, Web Application Security, Application Security, and Penetration Testing  
+**Level:** Beginner → Intermediate → Advanced  
+**Suggested duration:** 6–8 weeks for core Windows skills  
+**Study time:** 30–45 minutes daily alongside Linux, Python, and Networking.
 
 ---
 
-Part 1: Windows Fundamentals
+# Part 1: Windows Fundamentals
 
-Phase 1 — Introduction to Windows
+## Phase 1 — Introduction to Windows
 
 - [ ] What is Windows?
 - [ ] History and evolution of Microsoft Windows
@@ -34,7 +34,7 @@ Phase 1 — Introduction to Windows
 - [ ] Windows recovery environment
 - [ ] Windows installation and activation fundamentals
 
-Phase 2 — Windows Installation and Environment
+## Phase 2 — Windows Installation and Environment
 
 - [ ] Installing Windows in VMware or VirtualBox
 - [ ] Creating a Windows virtual machine
@@ -48,13 +48,13 @@ Phase 2 — Windows Installation and Environment
 - [ ] Disk Management
 - [ ] Task Manager
 - [ ] Settings vs Control Panel
-- [ ] System Information ("msinfo32")
+- [ ] System Information (`msinfo32`)
 - [ ] Environment variables
 - [ ] System restore points
 - [ ] Virtual machine snapshots
 - [ ] Shared folders between host and VM
 
-Practical tasks
+**Practical tasks**
 
 - [ ] Install Windows 11 in a virtual machine.
 - [ ] Create a local standard user.
@@ -64,12 +64,12 @@ Practical tasks
 
 ---
 
-Part 2: Windows Filesystem and Command Line
+# Part 2: Windows Filesystem and Command Line
 
-Phase 3 — Windows Filesystem
+## Phase 3 — Windows Filesystem
 
 - [ ] Windows drive structure
-- [ ] "C:\" drive
+- [ ] `C:\` drive
 - [ ] System directories
 - [ ] User directories
 - [ ] Program Files
@@ -97,9 +97,9 @@ Phase 3 — Windows Filesystem
 - [ ] Disk quotas
 - [ ] File recovery fundamentals
 
-Phase 4 — Command Prompt (CMD)
+## Phase 4 — Command Prompt (CMD)
 
-CMD fundamentals
+### CMD fundamentals
 
 - [ ] What is Command Prompt?
 - [ ] CMD vs PowerShell
@@ -110,83 +110,83 @@ CMD fundamentals
 - [ ] Command history
 - [ ] Help commands
 
-Essential CMD commands
+### Essential CMD commands
 
-Navigation and file management
+**Navigation and file management**
 
-- [ ] "dir"
-- [ ] "cd"
-- [ ] "md" / "mkdir"
-- [ ] "rd" / "rmdir"
-- [ ] "copy"
-- [ ] "xcopy"
-- [ ] "robocopy"
-- [ ] "move"
-- [ ] "ren"
-- [ ] "del"
-- [ ] "type"
-- [ ] "tree"
-- [ ] "attrib"
+- [ ] `dir`
+- [ ] `cd`
+- [ ] `md` / `mkdir`
+- [ ] `rd` / `rmdir`
+- [ ] `copy`
+- [ ] `xcopy`
+- [ ] `robocopy`
+- [ ] `move`
+- [ ] `ren`
+- [ ] `del`
+- [ ] `type`
+- [ ] `tree`
+- [ ] `attrib`
 
-System information
+**System information**
 
-- [ ] "systeminfo"
-- [ ] "hostname"
-- [ ] "whoami"
-- [ ] "ver"
-- [ ] "set"
-- [ ] "echo"
-- [ ] "date"
-- [ ] "time"
-- [ ] "driverquery"
-- [ ] "tasklist"
+- [ ] `systeminfo`
+- [ ] `hostname`
+- [ ] `whoami`
+- [ ] `ver`
+- [ ] `set`
+- [ ] `echo`
+- [ ] `date`
+- [ ] `time`
+- [ ] `driverquery`
+- [ ] `tasklist`
 
-Process management
+**Process management**
 
-- [ ] "tasklist"
-- [ ] "taskkill"
-- [ ] "start"
+- [ ] `tasklist`
+- [ ] `taskkill`
+- [ ] `start`
 
-Networking
+**Networking**
 
-- [ ] "ipconfig"
-- [ ] "ping"
-- [ ] "tracert"
-- [ ] "pathping"
-- [ ] "nslookup"
-- [ ] "netstat"
-- [ ] "arp"
-- [ ] "route"
-- [ ] "getmac"
-- [ ] "hostname"
+- [ ] `ipconfig`
+- [ ] `ping`
+- [ ] `tracert`
+- [ ] `pathping`
+- [ ] `nslookup`
+- [ ] `netstat`
+- [ ] `arp`
+- [ ] `route`
+- [ ] `getmac`
+- [ ] `hostname`
 
-System administration
+**System administration**
 
-- [ ] "sfc"
-- [ ] "DISM"
-- [ ] "chkdsk"
-- [ ] "shutdown"
-- [ ] "shutdown /r"
-- [ ] "shutdown /s"
-- [ ] "sc"
-- [ ] "net"
-- [ ] "schtasks"
-- [ ] "wevtutil"
+- [ ] `sfc`
+- [ ] `DISM`
+- [ ] `chkdsk`
+- [ ] `shutdown`
+- [ ] `shutdown /r`
+- [ ] `shutdown /s`
+- [ ] `sc`
+- [ ] `net`
+- [ ] `schtasks`
+- [ ] `wevtutil`
 
-Practical tasks
+**Practical tasks**
 
 - [ ] Create and delete directories using CMD.
 - [ ] Display IP configuration.
 - [ ] Identify running processes.
 - [ ] Check active network connections.
 - [ ] Inspect system information.
-- [ ] Copy files using "robocopy".
+- [ ] Copy files using `robocopy`.
 
 ---
 
-Part 3: Windows PowerShell
+# Part 3: Windows PowerShell
 
-Phase 5 — PowerShell Fundamentals
+## Phase 5 — PowerShell Fundamentals
 
 - [ ] What is PowerShell?
 - [ ] Why PowerShell is important for cybersecurity
@@ -201,9 +201,9 @@ Phase 5 — PowerShell Fundamentals
 - [ ] PowerShell pipeline
 - [ ] Objects vs text
 - [ ] PowerShell help system
-- [ ] "Get-Help"
-- [ ] "Get-Command"
-- [ ] "Get-Member"
+- [ ] `Get-Help`
+- [ ] `Get-Command`
+- [ ] `Get-Member`
 - [ ] Aliases
 - [ ] PowerShell profiles
 - [ ] Execution policies and their limitations
@@ -212,78 +212,78 @@ Phase 5 — PowerShell Fundamentals
 - [ ] PowerShell Gallery
 - [ ] Administrative privileges
 
-Phase 6 — PowerShell Commands
+## Phase 6 — PowerShell Commands
 
-File and directory management
+### File and directory management
 
-- [ ] "Get-ChildItem"
-- [ ] "Set-Location"
-- [ ] "Get-Location"
-- [ ] "New-Item"
-- [ ] "Remove-Item"
-- [ ] "Copy-Item"
-- [ ] "Move-Item"
-- [ ] "Rename-Item"
-- [ ] "Get-Content"
-- [ ] "Set-Content"
-- [ ] "Add-Content"
-- [ ] "Clear-Content"
-- [ ] "Test-Path"
+- [ ] `Get-ChildItem`
+- [ ] `Set-Location`
+- [ ] `Get-Location`
+- [ ] `New-Item`
+- [ ] `Remove-Item`
+- [ ] `Copy-Item`
+- [ ] `Move-Item`
+- [ ] `Rename-Item`
+- [ ] `Get-Content`
+- [ ] `Set-Content`
+- [ ] `Add-Content`
+- [ ] `Clear-Content`
+- [ ] `Test-Path`
 
-System information
+### System information
 
-- [ ] "Get-ComputerInfo"
-- [ ] "Get-CimInstance"
-- [ ] "Get-Service"
-- [ ] "Get-Process"
-- [ ] "Get-EventLog" — legacy
-- [ ] "Get-WinEvent"
-- [ ] "Get-HotFix"
-- [ ] "Get-LocalUser"
-- [ ] "Get-LocalGroup"
-- [ ] "Get-LocalGroupMember"
+- [ ] `Get-ComputerInfo`
+- [ ] `Get-CimInstance`
+- [ ] `Get-Service`
+- [ ] `Get-Process`
+- [ ] `Get-EventLog` — legacy
+- [ ] `Get-WinEvent`
+- [ ] `Get-HotFix`
+- [ ] `Get-LocalUser`
+- [ ] `Get-LocalGroup`
+- [ ] `Get-LocalGroupMember`
 
-Process and service management
+### Process and service management
 
-- [ ] "Start-Process"
-- [ ] "Stop-Process"
-- [ ] "Wait-Process"
-- [ ] "Start-Service"
-- [ ] "Stop-Service"
-- [ ] "Restart-Service"
-- [ ] "Set-Service"
+- [ ] `Start-Process`
+- [ ] `Stop-Process`
+- [ ] `Wait-Process`
+- [ ] `Start-Service`
+- [ ] `Stop-Service`
+- [ ] `Restart-Service`
+- [ ] `Set-Service`
 
-Networking
+### Networking
 
-- [ ] "Get-NetIPConfiguration"
-- [ ] "Get-NetIPAddress"
-- [ ] "Get-NetAdapter"
-- [ ] "Get-NetRoute"
-- [ ] "Get-NetTCPConnection"
-- [ ] "Test-NetConnection"
-- [ ] "Resolve-DnsName"
-- [ ] "Get-NetFirewallProfile"
-- [ ] "Get-NetFirewallRule"
+- [ ] `Get-NetIPConfiguration`
+- [ ] `Get-NetIPAddress`
+- [ ] `Get-NetAdapter`
+- [ ] `Get-NetRoute`
+- [ ] `Get-NetTCPConnection`
+- [ ] `Test-NetConnection`
+- [ ] `Resolve-DnsName`
+- [ ] `Get-NetFirewallProfile`
+- [ ] `Get-NetFirewallRule`
 
-Filtering and pipelines
+### Filtering and pipelines
 
-- [ ] "Where-Object"
-- [ ] "Select-Object"
-- [ ] "Sort-Object"
-- [ ] "Group-Object"
-- [ ] "Measure-Object"
-- [ ] "ForEach-Object"
-- [ ] "Format-Table"
-- [ ] "Format-List"
-- [ ] "Export-Csv"
-- [ ] "ConvertTo-Json"
-- [ ] "ConvertFrom-Json"
-- [ ] "Out-File"
-- [ ] "Tee-Object"
+- [ ] `Where-Object`
+- [ ] `Select-Object`
+- [ ] `Sort-Object`
+- [ ] `Group-Object`
+- [ ] `Measure-Object`
+- [ ] `ForEach-Object`
+- [ ] `Format-Table`
+- [ ] `Format-List`
+- [ ] `Export-Csv`
+- [ ] `ConvertTo-Json`
+- [ ] `ConvertFrom-Json`
+- [ ] `Out-File`
+- [ ] `Tee-Object`
 
-Phase 7 — PowerShell Scripting
+## Phase 7 — PowerShell Scripting
 
-- [ ] Creating ".ps1" files
+- [ ] Creating `.ps1` files
 - [ ] Variables
 - [ ] Data types
 - [ ] Strings and numbers
@@ -291,17 +291,17 @@ Phase 7 — PowerShell Scripting
 - [ ] Hashtables
 - [ ] Operators
 - [ ] Conditional statements
-- [ ] "if", "elseif", and "else"
-- [ ] "switch"
-- [ ] "for" loops
-- [ ] "foreach" loops
-- [ ] "while" loops
+- [ ] `if`, `elseif`, and `else`
+- [ ] `switch`
+- [ ] `for` loops
+- [ ] `foreach` loops
+- [ ] `while` loops
 - [ ] Functions
 - [ ] Parameters
 - [ ] Return values
 - [ ] Scope
 - [ ] Error handling
-- [ ] "try", "catch", and "finally"
+- [ ] `try`, `catch`, and `finally`
 - [ ] Exception handling
 - [ ] Working with files
 - [ ] Working with JSON and CSV
@@ -313,7 +313,7 @@ Phase 7 — PowerShell Scripting
 - [ ] Secure handling of credentials
 - [ ] Code signing fundamentals
 
-Practical projects
+**Practical projects**
 
 - [ ] Create a system-information collector.
 - [ ] Build a running-process report.
@@ -324,9 +324,9 @@ Practical projects
 
 ---
 
-Part 4: Windows Users, Groups, and Permissions
+# Part 4: Windows Users, Groups, and Permissions
 
-Phase 8 — Windows Account Management
+## Phase 8 — Windows Account Management
 
 - [ ] Local accounts
 - [ ] Microsoft accounts
@@ -347,13 +347,13 @@ Phase 8 — Windows Account Management
 - [ ] Multi-factor authentication
 - [ ] Windows Credential Manager
 
-Phase 9 — NTFS Permissions and Access Control
+## Phase 9 — NTFS Permissions and Access Control
 
 - [ ] What are NTFS permissions?
 - [ ] Read
 - [ ] Write
 - [ ] Modify
-- [ ] Read & Execute
+- [ ] Read \& Execute
 - [ ] Full Control
 - [ ] Inheritance
 - [ ] Explicit vs inherited permissions
@@ -366,24 +366,24 @@ Phase 9 — NTFS Permissions and Access Control
 - [ ] Effective permissions
 - [ ] Shared-folder permissions
 - [ ] NTFS vs share permissions
-- [ ] "icacls"
-- [ ] "takeown"
+- [ ] `icacls`
+- [ ] `takeown`
 - [ ] Least privilege
 - [ ] Common permission misconfigurations
 
-Practical tasks
+**Practical tasks**
 
 - [ ] Create two local users.
 - [ ] Create a shared directory.
 - [ ] Configure different permissions.
-- [ ] Inspect permissions using "icacls".
+- [ ] Inspect permissions using `icacls`.
 - [ ] Test access using each account.
 
 ---
 
-Part 5: Windows Processes, Services, and Registry
+# Part 5: Windows Processes, Services, and Registry
 
-Phase 10 — Windows Processes and Services
+## Phase 10 — Windows Processes and Services
 
 - [ ] What is a process?
 - [ ] Process IDs (PID)
@@ -395,35 +395,35 @@ Phase 10 — Windows Processes and Services
 - [ ] Resource Monitor
 - [ ] Process Explorer — Sysinternals
 - [ ] Process Monitor — Sysinternals
-- [ ] "tasklist"
-- [ ] "taskkill"
-- [ ] "Get-Process"
+- [ ] `tasklist`
+- [ ] `taskkill`
+- [ ] `Get-Process`
 - [ ] Windows services
 - [ ] Service Control Manager
 - [ ] Automatic, manual, and disabled startup types
 - [ ] Service accounts
 - [ ] Service dependencies
-- [ ] "services.msc"
-- [ ] "sc.exe"
-- [ ] "Get-Service"
+- [ ] `services.msc`
+- [ ] `sc.exe`
+- [ ] `Get-Service`
 - [ ] Service security and permissions
 - [ ] Service misconfiguration concepts
 
-Phase 11 — Windows Registry
+## Phase 11 — Windows Registry
 
 - [ ] What is the Windows Registry?
 - [ ] Registry structure
 - [ ] Registry hives
-- [ ] "HKEY_LOCAL_MACHINE"
-- [ ] "HKEY_CURRENT_USER"
-- [ ] "HKEY_CLASSES_ROOT"
-- [ ] "HKEY_USERS"
-- [ ] "HKEY_CURRENT_CONFIG"
+- [ ] `HKEY_LOCAL_MACHINE`
+- [ ] `HKEY_CURRENT_USER`
+- [ ] `HKEY_CLASSES_ROOT`
+- [ ] `HKEY_USERS`
+- [ ] `HKEY_CURRENT_CONFIG`
 - [ ] Registry keys
 - [ ] Registry values
 - [ ] Registry data types
-- [ ] "regedit"
-- [ ] "reg.exe"
+- [ ] `regedit`
+- [ ] `reg.exe`
 - [ ] Registry permissions
 - [ ] Registry backups
 - [ ] Registry recovery
@@ -433,13 +433,13 @@ Phase 11 — Windows Registry
 - [ ] Common registry security risks
 - [ ] Registry persistence concepts and detection
 
-Important: Always back up registry settings before making changes. Incorrect edits can make Windows unstable.
+**Important:** Always back up registry settings before making changes. Incorrect edits can make Windows unstable.
 
 ---
 
-Part 6: Windows Networking
+# Part 6: Windows Networking
 
-Phase 12 — Windows Networking Fundamentals
+## Phase 12 — Windows Networking Fundamentals
 
 - [ ] Windows network interfaces
 - [ ] Ethernet and Wi-Fi configuration
@@ -463,28 +463,28 @@ Phase 12 — Windows Networking Fundamentals
 - [ ] Network sharing
 - [ ] Windows network troubleshooting
 
-Phase 13 — Windows Networking Commands
+## Phase 13 — Windows Networking Commands
 
-- [ ] "ipconfig"
-- [ ] "ipconfig /all"
-- [ ] "ipconfig /release"
-- [ ] "ipconfig /renew"
-- [ ] "ipconfig /flushdns"
-- [ ] "ping"
-- [ ] "tracert"
-- [ ] "pathping"
-- [ ] "nslookup"
-- [ ] "netstat"
-- [ ] "arp"
-- [ ] "route print"
-- [ ] "getmac"
-- [ ] "hostname"
-- [ ] "netsh"
-- [ ] "Test-NetConnection"
-- [ ] "Resolve-DnsName"
-- [ ] "Get-NetTCPConnection"
+- [ ] `ipconfig`
+- [ ] `ipconfig /all`
+- [ ] `ipconfig /release`
+- [ ] `ipconfig /renew`
+- [ ] `ipconfig /flushdns`
+- [ ] `ping`
+- [ ] `tracert`
+- [ ] `pathping`
+- [ ] `nslookup`
+- [ ] `netstat`
+- [ ] `arp`
+- [ ] `route print`
+- [ ] `getmac`
+- [ ] `hostname`
+- [ ] `netsh`
+- [ ] `Test-NetConnection`
+- [ ] `Resolve-DnsName`
+- [ ] `Get-NetTCPConnection`
 
-Phase 14 — Windows Firewall
+## Phase 14 — Windows Firewall
 
 - [ ] What is Windows Defender Firewall?
 - [ ] Inbound rules
@@ -498,12 +498,12 @@ Phase 14 — Windows Firewall
 - [ ] Port-based rules
 - [ ] Firewall logging
 - [ ] Windows Defender Firewall with Advanced Security
-- [ ] "wf.msc"
+- [ ] `wf.msc`
 - [ ] PowerShell firewall management
 - [ ] Common firewall misconfigurations
 - [ ] Firewall troubleshooting
 
-Practical tasks
+**Practical tasks**
 
 - [ ] Inspect your IP configuration.
 - [ ] Check listening ports.
@@ -513,9 +513,9 @@ Practical tasks
 
 ---
 
-Part 7: Windows Security
+# Part 7: Windows Security
 
-Phase 15 — Windows Defender and Endpoint Security
+## Phase 15 — Windows Defender and Endpoint Security
 
 - [ ] Microsoft Defender Antivirus
 - [ ] Real-time protection
@@ -541,7 +541,7 @@ Phase 15 — Windows Defender and Endpoint Security
 - [ ] Windows Sandbox
 - [ ] Microsoft Defender for Endpoint — overview
 
-Phase 16 — Windows Authentication and Security Architecture
+## Phase 16 — Windows Authentication and Security Architecture
 
 - [ ] Windows authentication architecture
 - [ ] Security Accounts Manager (SAM)
@@ -562,7 +562,7 @@ Phase 16 — Windows Authentication and Security Architecture
 - [ ] Authentication weaknesses and defenses
 - [ ] Secure credential handling
 
-Phase 17 — Windows Event Logs and Auditing
+## Phase 17 — Windows Event Logs and Auditing
 
 - [ ] What are Windows Event Logs?
 - [ ] Event Viewer
@@ -582,47 +582,48 @@ Phase 17 — Windows Event Logs and Auditing
 - [ ] Firewall logs
 - [ ] Sysmon
 - [ ] Sysmon configuration fundamentals
-- [ ] "wevtutil"
-- [ ] "Get-WinEvent"
+- [ ] `wevtutil`
+- [ ] `Get-WinEvent`
 - [ ] Event correlation
 - [ ] Log retention
 - [ ] Centralized event collection
 - [ ] Security monitoring
 
-Important Windows Event IDs to recognize
+### Important Windows Event IDs to recognize
 
-Event ID| Description
-4624| Successful logon
-4625| Failed logon
-4634| Account logged off
-4648| Logon using explicit credentials
-4672| Special privileges assigned to a new logon
-4688| Process creation
-4697| Service installed
-4720| User account created
-4722| User account enabled
-4725| User account disabled
-4726| User account deleted
-4732| Member added to a security-enabled local group
-4740| User account locked out
-1102| Security audit log cleared
+| Event ID | Description |
+| --- | --- |
+| 4624 | Successful logon |
+| 4625 | Failed logon |
+| 4634 | Account logged off |
+| 4648 | Logon using explicit credentials |
+| 4672 | Special privileges assigned to a new logon |
+| 4688 | Process creation |
+| 4697 | Service installed |
+| 4720 | User account created |
+| 4722 | User account enabled |
+| 4725 | User account disabled |
+| 4726 | User account deleted |
+| 4732 | Member added to a security-enabled local group |
+| 4740 | User account locked out |
+| 1102 | Security audit log cleared |
 
 Event availability depends on the audit policy and Windows configuration. Learn to investigate events in context rather than relying on a single event ID.
 
 ---
 
-Part 8: Windows System Administration
+# Part 8: Windows System Administration
 
-Phase 18 — Windows Administration
+## Phase 18 — Windows Administration
 
 - [ ] Local users and groups
 - [ ] Computer Management
 - [ ] Local Security Policy
 - [ ] Group Policy fundamentals
 - [ ] Local Group Policy Editor
-- [ ] "gpedit.msc"
-- [ ] "gpupdate"
-- [ ] "gpresult"
+- [ ] `gpedit.msc`
+- [ ] `gpupdate`
+- [ ] `gpresult`
 - [ ] Windows Update
 - [ ] Windows services
 - [ ] Scheduled Tasks
@@ -639,7 +640,7 @@ Phase 18 — Windows Administration
 - [ ] Safe Mode
 - [ ] Recovery Environment
 
-Phase 19 — Windows Task Scheduler and Startup
+## Phase 19 — Windows Task Scheduler and Startup
 
 - [ ] What is Task Scheduler?
 - [ ] Scheduled tasks
@@ -649,7 +650,7 @@ Phase 19 — Windows Task Scheduler and Startup
 - [ ] Startup tasks
 - [ ] Logon tasks
 - [ ] Scheduled task permissions
-- [ ] "schtasks"
+- [ ] `schtasks`
 - [ ] PowerShell scheduled tasks
 - [ ] Startup folder
 - [ ] Startup registry locations
@@ -659,11 +660,11 @@ Phase 19 — Windows Task Scheduler and Startup
 
 ---
 
-Part 9: Windows Server and Active Directory
+# Part 9: Windows Server and Active Directory
 
 This section is particularly valuable if you later explore enterprise penetration testing or SOC work.
 
-Phase 20 — Windows Server Fundamentals
+## Phase 20 — Windows Server Fundamentals
 
 - [ ] What is Windows Server?
 - [ ] Windows Server editions
@@ -681,7 +682,7 @@ Phase 20 — Windows Server Fundamentals
 - [ ] Server hardening
 - [ ] Server updates and patching
 
-Phase 21 — Active Directory Fundamentals
+## Phase 21 — Active Directory Fundamentals
 
 - [ ] What is Active Directory?
 - [ ] Why organizations use Active Directory
@@ -712,7 +713,7 @@ Phase 21 — Active Directory Fundamentals
 - [ ] Group Managed Service Accounts (gMSAs)
 - [ ] Active Directory security best practices
 
-Phase 22 — Active Directory Security
+## Phase 22 — Active Directory Security
 
 - [ ] Active Directory attack surface
 - [ ] Kerberos security fundamentals
@@ -737,9 +738,9 @@ Practice these topics only in an isolated Active Directory lab that you control 
 
 ---
 
-Part 10: Windows Vulnerability and Attack Concepts
+# Part 10: Windows Vulnerability and Attack Concepts
 
-Phase 23 — Common Windows Security Weaknesses
+## Phase 23 — Common Windows Security Weaknesses
 
 - [ ] Weak passwords
 - [ ] Excessive user privileges
@@ -762,7 +763,7 @@ Phase 23 — Common Windows Security Weaknesses
 - [ ] Common persistence mechanisms and their detection
 - [ ] Vulnerability assessment fundamentals
 
-Phase 24 — Windows Attack Techniques: Understand and Detect
+## Phase 24 — Windows Attack Techniques: Understand and Detect
 
 - [ ] Phishing and malicious attachments
 - [ ] Malware execution
@@ -787,9 +788,9 @@ Focus on understanding the underlying weaknesses, their impact, and how defender
 
 ---
 
-Part 11: Windows Forensics and Malware Analysis
+# Part 11: Windows Forensics and Malware Analysis
 
-Phase 25 — Digital Forensics Fundamentals
+## Phase 25 — Digital Forensics Fundamentals
 
 - [ ] What is digital forensics?
 - [ ] Evidence preservation
@@ -811,7 +812,7 @@ Phase 25 — Digital Forensics Fundamentals
 - [ ] Disk imaging
 - [ ] Forensic reporting
 
-Phase 26 — Malware Analysis Fundamentals
+## Phase 26 — Malware Analysis Fundamentals
 
 - [ ] What is malware?
 - [ ] Malware categories
@@ -827,4 +828,279 @@ Phase 26 — Malware Analysis Fundamentals
 - [ ] Process behavior
 - [ ] Network behavior
 - [ ] Sandbox fundamentals
-- [ ] 
+- [ ] Indicators of Compromise (IOCs)
+- [ ] YARA rules — introduction
+- [ ] Safe malware-analysis lab setup
+- [ ] Malware containment
+- [ ] Basic malware-analysis reporting
+
+Never execute unknown malware on your normal computer or an internet-connected personal environment.
+
+---
+
+# Part 12: Windows Security Tools
+
+## Phase 27 — Important Windows Tools
+
+### Built-in tools
+
+- [ ] Task Manager
+- [ ] Resource Monitor
+- [ ] Event Viewer
+- [ ] Computer Management
+- [ ] Device Manager
+- [ ] Disk Management
+- [ ] Services Manager
+- [ ] Registry Editor
+- [ ] Local Security Policy
+- [ ] Group Policy Editor
+- [ ] Windows Defender
+- [ ] Windows Firewall
+- [ ] Windows Terminal
+- [ ] PowerShell
+
+### Microsoft Sysinternals
+
+- [ ] Process Explorer
+- [ ] Process Monitor
+- [ ] Autoruns
+- [ ] TCPView
+- [ ] PsExec
+- [ ] Sigcheck
+- [ ] Handle
+- [ ] AccessChk
+- [ ] Sysmon
+- [ ] RAMMap
+
+### Additional security tools
+
+- [ ] Wireshark
+- [ ] Nmap
+- [ ] Microsoft Defender for Endpoint — overview
+- [ ] Windows Performance Recorder — overview
+- [ ] Windows Performance Analyzer — overview
+- [ ] Velociraptor — endpoint visibility and investigation
+- [ ] Volatility — memory forensics
+- [ ] KAPE — forensic collection
+- [ ] YARA — pattern-based detection
+
+---
+
+# Part 13: Windows and Web Application Security
+
+## Phase 28 — Windows Web Server Fundamentals
+
+- [ ] What is IIS?
+- [ ] IIS architecture
+- [ ] Installing IIS in a lab
+- [ ] Websites and application pools
+- [ ] Virtual directories
+- [ ] IIS bindings
+- [ ] HTTP and HTTPS bindings
+- [ ] IIS authentication methods
+- [ ] Windows Authentication
+- [ ] Anonymous Authentication
+- [ ] Application pool identities
+- [ ] IIS permissions
+- [ ] IIS logs
+- [ ] IIS configuration files
+- [ ] Request filtering
+- [ ] Secure IIS configuration
+- [ ] IIS patch management
+- [ ] Reverse proxy fundamentals
+- [ ] Windows hosting architecture
+
+## Phase 29 — Windows-Based Application Security
+
+- [ ] How web applications run on Windows
+- [ ] IIS vs Apache vs Nginx
+- [ ] Windows application hosting
+- [ ] .NET application architecture
+- [ ] ASP.NET fundamentals
+- [ ] Windows authentication in web applications
+- [ ] Integrated authentication
+- [ ] Application pools and identities
+- [ ] File-system permissions for applications
+- [ ] Connection strings and secrets
+- [ ] Database connectivity
+- [ ] Windows-based API hosting
+- [ ] Secure configuration
+- [ ] Logging and error handling
+- [ ] Application deployment security
+
+---
+
+# Part 14: Practical Windows Cybersecurity Lab
+
+## Phase 30 — Build Your Windows Lab
+
+- [ ] Create a Windows 11 virtual machine.
+- [ ] Create a separate local standard user.
+- [ ] Keep the VM updated.
+- [ ] Configure Windows Defender.
+- [ ] Configure Windows Firewall.
+- [ ] Install Windows Sysinternals.
+- [ ] Install Wireshark.
+- [ ] Install PowerShell 7 if needed.
+- [ ] Explore Windows Event Viewer.
+- [ ] Enable appropriate audit policies.
+- [ ] Install Sysmon using a trusted configuration.
+- [ ] Connect Kali and Windows through an isolated virtual network.
+- [ ] Take snapshots before experiments.
+- [ ] Document the lab network and system configuration.
+- [ ] Keep intentionally vulnerable services isolated.
+
+## Phase 31 — Practical Projects
+
+### Project 1: Windows System Information Collector
+
+- [ ] Collect OS version.
+- [ ] Collect hostname.
+- [ ] Collect user information.
+- [ ] Collect network configuration.
+- [ ] Collect running services.
+- [ ] Export the results to JSON or CSV.
+
+### Project 2: Windows Log Analyzer
+
+- [ ] Read Windows Security logs.
+- [ ] Identify successful logons.
+- [ ] Identify failed logons.
+- [ ] Group events by username.
+- [ ] Identify repeated failures.
+- [ ] Generate a report using PowerShell.
+
+### Project 3: Windows Security Audit
+
+- [ ] Review local users.
+- [ ] Review administrator membership.
+- [ ] Inspect firewall profiles.
+- [ ] Review startup programs.
+- [ ] Inspect services.
+- [ ] Check installed updates.
+- [ ] Document security recommendations.
+
+### Project 4: Windows Network Monitor
+
+- [ ] Identify active network interfaces.
+- [ ] List listening TCP ports.
+- [ ] Inspect established connections.
+- [ ] Identify associated processes.
+- [ ] Export the results to CSV.
+
+### Project 5: Active Directory Lab
+
+- [ ] Install Windows Server in a separate VM.
+- [ ] Configure Active Directory Domain Services.
+- [ ] Create a test domain.
+- [ ] Create test users and groups.
+- [ ] Configure basic Group Policies.
+- [ ] Join a Windows client to the domain.
+- [ ] Test authentication and permissions.
+- [ ] Review security logs.
+
+### Project 6: Windows Web Server Security
+
+- [ ] Install IIS.
+- [ ] Deploy a small test web application.
+- [ ] Configure HTTPS in the lab.
+- [ ] Configure application permissions.
+- [ ] Review IIS logs.
+- [ ] Review security headers.
+- [ ] Document security improvements.
+
+---
+
+# Part 15: Recommended Learning Resources
+
+1. **Microsoft Learn:** https://learn.microsoft.com/
+2. **Windows documentation:** https://learn.microsoft.com/en-us/windows/
+3. **PowerShell documentation:** https://learn.microsoft.com/en-us/powershell/
+4. **Windows security documentation:** https://learn.microsoft.com/en-us/windows/security/
+5. **Windows Server documentation:** https://learn.microsoft.com/en-us/windows-server/
+6. **Sysinternals Suite:** https://learn.microsoft.com/en-us/sysinternals/
+7. **Microsoft Security:** https://www.microsoft.com/en-us/security
+8. **Windows command reference:** https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands
+9. **Active Directory documentation:** https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/
+10. **MITRE ATT\&CK:** https://attack.mitre.org/
+
+---
+
+# Part 16: Suggested 8-Week Study Schedule
+
+| Week | Main focus | Practical outcome |
+| --- | --- | --- |
+| 1 | Windows fundamentals, filesystem, CMD | Navigate Windows comfortably |
+| 2 | PowerShell fundamentals and scripting | Write basic PowerShell scripts |
+| 3 | Users, groups, permissions, processes, services | Administer a Windows machine |
+| 4 | Networking, firewall, and Registry | Troubleshoot Windows systems |
+| 5 | Defender, authentication, and event logs | Investigate Windows security events |
+| 6 | Windows administration and Sysinternals | Perform a basic security audit |
+| 7 | Active Directory fundamentals | Build a small AD lab |
+| 8 | IIS, forensics fundamentals, and projects | Complete a Windows security project |
+
+---
+
+# Part 17: Priority Checklist
+
+## Priority 1 — Must Know First
+
+- [ ] Windows architecture and filesystem
+- [ ] CMD fundamentals
+- [ ] PowerShell fundamentals
+- [ ] PowerShell scripting
+- [ ] Windows users and groups
+- [ ] NTFS permissions
+- [ ] Processes and services
+- [ ] Windows networking
+- [ ] Windows Firewall
+- [ ] Windows Defender
+- [ ] Windows Event Viewer
+- [ ] Windows Registry fundamentals
+
+## Priority 2 — Learn Alongside Cybersecurity
+
+- [ ] Sysinternals
+- [ ] Sysmon
+- [ ] Windows authentication
+- [ ] PowerShell logging
+- [ ] Windows security auditing
+- [ ] IIS fundamentals
+- [ ] Windows vulnerability concepts
+- [ ] Windows forensic artifacts
+
+## Priority 3 — Learn Later
+
+- [ ] Windows Server administration
+- [ ] Active Directory
+- [ ] Kerberos and NTLM internals
+- [ ] Group Policy
+- [ ] Active Directory security
+- [ ] Malware analysis
+- [ ] Memory forensics
+- [ ] Advanced Windows internals
+- [ ] Enterprise endpoint security
+
+---
+
+# Final Readiness Test
+
+Before moving into more advanced Windows security topics, you should be able to:
+
+- [ ] Explain the Windows filesystem and basic architecture.
+- [ ] Navigate CMD and PowerShell comfortably.
+- [ ] Write a basic PowerShell automation script.
+- [ ] Manage local users and groups.
+- [ ] Explain NTFS permissions and ACLs.
+- [ ] Inspect processes and services.
+- [ ] Understand the Windows Registry.
+- [ ] Troubleshoot basic Windows networking problems.
+- [ ] Configure and inspect Windows Firewall.
+- [ ] Investigate Windows Event Logs.
+- [ ] Use Sysinternals to inspect system activity.
+- [ ] Explain Windows authentication fundamentals.
+- [ ] Perform a basic Windows security audit.
+
+**Final recommendation:** Prioritize Windows fundamentals, PowerShell, permissions, networking, processes, services, and event logs. Learn Active Directory and advanced Windows security after you establish those foundations.
+
+You do not need to master every Windows administration or forensic topic before starting web application security.
