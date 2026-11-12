@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Defense in depth layers</title>
+  <desc id="desc">Concentric layers representing identity, application, network, endpoint, and data security.</desc>
+  <rect width="1200" height="300" rx="26" fill="#0d1b2a"/>
+  <g transform="translate(280 150)">
+    <circle r="116" fill="#17324a" stroke="#4fd1c5" stroke-width="3"/>
+    <circle r="88" fill="#1e4660" stroke="#65d6ff" stroke-width="3"/>
+    <circle r="60" fill="#285a72" stroke="#89a7ff" stroke-width="3"/>
+    <circle r="32" fill="#39789a" stroke="#d3f8ff" stroke-width="3"/>
+    <path d="M0-15v34M-17 2h34" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <g fill="#e7f7ff" font-family="Arial, Helvetica, sans-serif">
+    <text x="470" y="78" font-size="28" font-weight="700">Defense in depth</text>
+    <text x="470" y="119" font-size="19">No single control should carry the entire security burden.</text>
+    <text x="470" y="169" font-size="18" fill="#79e2d0">Identity</text>
+    <text x="650" y="169" font-size="18" fill="#65d6ff">Application</text>
+    <text x="470" y="211" font-size="18" fill="#89a7ff">Network</text>
+    <text x="650" y="211" font-size="18" fill="#d3f8ff">Endpoint</text>
+    <text x="470" y="253" font-size="18" fill="#fff">Data, monitoring, recovery</text>
+  </g>
+</svg>

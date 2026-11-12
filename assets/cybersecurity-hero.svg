@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Cybersecurity shield protecting a digital network</title>
+  <desc id="desc">A blue shield in front of connected nodes and a dark digital background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="1" stop-color="#102d4d"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#41d9ff"/>
+      <stop offset="1" stop-color="#3974ff"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="7" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <g stroke="#56cfff" stroke-opacity=".28" stroke-width="2" fill="none">
+    <path d="M75 110 230 55l135 90-35 145-165 35-110-100z"/>
+    <path d="M850 65l180 30 88 135-115 125-170-30-62-145z"/>
+    <path d="M75 110 135 225M230 55l48 105M365 145 278 160M850 65l62 115M1030 95l-46 125M1118 230l-134-10"/>
+  </g>
+  <g fill="#7be7ff" filter="url(#glow)">
+    <circle cx="75" cy="110" r="6"/><circle cx="230" cy="55" r="6"/><circle cx="365" cy="145" r="6"/>
+    <circle cx="135" cy="225" r="6"/><circle cx="850" cy="65" r="6"/><circle cx="1030" cy="95" r="6"/>
+    <circle cx="1118" cy="230" r="6"/><circle cx="984" cy="220" r="6"/>
+  </g>
+  <path d="M600 54 785 112v106c0 91-75 145-185 179-110-34-185-88-185-179V112z" fill="#07101e" stroke="#55ddff" stroke-width="7" filter="url(#glow)"/>
+  <path d="M600 78 755 126v91c0 70-56 113-155 147-99-34-155-77-155-147v-91z" fill="url(#shield)" opacity=".93"/>
+  <path d="m532 207 47 47 94-103" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="19"/>
+  <g fill="#d9f8ff" font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="350" font-size="25" letter-spacing="5">LEARN • BUILD • DEFEND</text>
+    <text x="880" y="350" font-size="19" letter-spacing="2">WEB SECURITY</text>
+  </g>
+</svg>
